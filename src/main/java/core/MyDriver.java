@@ -39,7 +39,7 @@ public class MyDriver {
     	    
     	    
     	case CHROME:
-    	    System.setProperty("webdriver.chrome.driver","/Users/nicolas/Desktop/chromedriver");
+    	    System.setProperty("webdriver.chrome.driver","/Users/nimoraes/Desktop/chromedriver");
     	    driver = new ChromeDriver();
     	    break;
     	    
