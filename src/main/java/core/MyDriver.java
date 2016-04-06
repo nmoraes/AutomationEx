@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -24,7 +25,7 @@ public class MyDriver {
 
     
     private enum browsers {
-    	FIREFOX, SOUCELABS
+    	FIREFOX, SOUCELABS, CHROME
         };
     
     public void tearUp(ITestContext context) {
@@ -35,6 +36,13 @@ public class MyDriver {
     	case FIREFOX:
     	    driver = new FirefoxDriver();
     	    break;
+    	    
+    	    
+    	case CHROME:
+    	    System.setProperty("webdriver.chrome.driver","/Users/nicolas/Desktop/chromedriver");
+    	    driver = new ChromeDriver();
+    	    break;
+    	    
 
     	case SOUCELABS:
 
