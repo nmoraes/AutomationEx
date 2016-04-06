@@ -2,49 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="ML Tests" duration-ms="10009" started-at="2016-04-06T15:40:01Z" finished-at="2016-04-06T15:40:11Z">
+  <suite name="TestAll" duration-ms="11211" started-at="2016-04-06T16:16:18Z" finished-at="2016-04-06T16:16:30Z">
     <groups>
     </groups>
-    <test name="MercadoLibreSearch" duration-ms="9316" started-at="2016-04-06T15:40:01Z" finished-at="2016-04-06T15:40:11Z">
+    <test name="MercadoLibre" duration-ms="11026" started-at="2016-04-06T16:16:18Z" finished-at="2016-04-06T16:16:29Z">
       <class name="tests.MercadoLibreTest">
-        <test-method status="PASS" signature="tearUp(org.testng.ITestContext)[pri:0, instance:tests.MercadoLibreTest@6eda0e76]" name="tearUp" is-config="true" duration-ms="13790" started-at="2016-04-06T15:39:37Z" finished-at="2016-04-06T15:39:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3d98c28c]]>
-              </value>
-            </param>
-          </params>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="tearUp(org.testng.ITestContext)[pri:0, instance:tests.MercadoLibreSearchTest@12bfaa9a]" name="tearUp" is-config="true" duration-ms="10484" started-at="2016-04-06T15:39:51Z" finished-at="2016-04-06T15:40:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3d98c28c]]>
-              </value>
-            </param>
-          </params>
-        </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.MercadoLibreTest@6eda0e76]" name="tearDown" is-config="true" duration-ms="2513" started-at="2016-04-06T15:40:11Z" finished-at="2016-04-06T15:40:14Z">
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.MercadoLibreSearchTest@12bfaa9a]" name="tearDown" is-config="true" duration-ms="4019" started-at="2016-04-06T15:40:14Z" finished-at="2016-04-06T15:40:18Z">
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.MercadoLibreTest -->
-      <class name="tests.MercadoLibreSearchTest">
-        <test-method status="PASS" signature="testSearch(java.lang.String)[pri:0, instance:tests.MercadoLibreSearchTest@12bfaa9a]" name="testSearch" duration-ms="9256" started-at="2016-04-06T15:40:01Z" finished-at="2016-04-06T15:40:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iphone]]>
-              </value>
-            </param>
-          </params>
-        </test-method> <!-- testSearch -->
-      </class> <!-- tests.MercadoLibreSearchTest -->
-    </test> <!-- MercadoLibreSearch -->
-    <test name="MercadoLibre" duration-ms="10009" started-at="2016-04-06T15:40:01Z" finished-at="2016-04-06T15:40:11Z">
-      <class name="tests.MercadoLibreTest">
-        <test-method status="PASS" signature="testLoginAdmin(java.lang.String)[pri:0, instance:tests.MercadoLibreTest@6eda0e76]" name="testLoginAdmin" duration-ms="9949" started-at="2016-04-06T15:40:01Z" finished-at="2016-04-06T15:40:11Z">
+        <test-method status="PASS" signature="testLoginAdmin(java.lang.String)[pri:0, instance:tests.MercadoLibreTest@6eda0e76]" name="testLoginAdmin" duration-ms="10982" started-at="2016-04-06T16:16:18Z" finished-at="2016-04-06T16:16:29Z">
           <params>
             <param index="0">
               <value>
@@ -55,5 +18,42 @@
         </test-method> <!-- testLoginAdmin -->
       </class> <!-- tests.MercadoLibreTest -->
     </test> <!-- MercadoLibre -->
-  </suite> <!-- ML Tests -->
+    <test name="MercadoLibreSearch" duration-ms="11211" started-at="2016-04-06T16:16:18Z" finished-at="2016-04-06T16:16:30Z">
+      <class name="tests.MercadoLibreTest">
+        <test-method status="PASS" signature="tearUp(org.testng.ITestContext)[pri:0, instance:tests.MercadoLibreTest@6eda0e76]" name="tearUp" is-config="true" duration-ms="15244" started-at="2016-04-06T16:15:55Z" finished-at="2016-04-06T16:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3202d3]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="tearUp(org.testng.ITestContext)[pri:0, instance:tests.MercadoLibreSearchTest@12bfaa9a]" name="tearUp" is-config="true" duration-ms="7788" started-at="2016-04-06T16:16:11Z" finished-at="2016-04-06T16:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3202d3]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.MercadoLibreTest@6eda0e76]" name="tearDown" is-config="true" duration-ms="2659" started-at="2016-04-06T16:16:30Z" finished-at="2016-04-06T16:16:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.MercadoLibreSearchTest@12bfaa9a]" name="tearDown" is-config="true" duration-ms="470" started-at="2016-04-06T16:16:33Z" finished-at="2016-04-06T16:16:33Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MercadoLibreTest -->
+      <class name="tests.MercadoLibreSearchTest">
+        <test-method status="PASS" signature="testSearch(java.lang.String)[pri:0, instance:tests.MercadoLibreSearchTest@12bfaa9a]" name="testSearch" duration-ms="11148" started-at="2016-04-06T16:16:18Z" finished-at="2016-04-06T16:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- testSearch -->
+      </class> <!-- tests.MercadoLibreSearchTest -->
+    </test> <!-- MercadoLibreSearch -->
+  </suite> <!-- TestAll -->
 </testng-results>
